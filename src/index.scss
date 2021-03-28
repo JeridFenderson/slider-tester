@@ -12,9 +12,16 @@ body {
 }
 
 .swiper-container {
-  width: 500px;
+  border: 0.2em solid brown;
+  border-radius: 0.5em;
+  width: 50vw;
 }
 
 .swipper-wrapper {
   padding-inline-start: 0;
+}
+
+.slideImg {
+  width: 50vw;
+  object-fit: contain;
 }
